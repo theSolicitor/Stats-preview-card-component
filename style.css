@@ -1,0 +1,19 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: hsl(233, 47%, 7%);
+	color: ;
+}
+
+.card{
+	background: hsl(244, 38%, 16%);
+	display: grid;
+}
+
+h1{
+	color: hsl(0, 0%, 100%);
+}
