@@ -8,12 +8,64 @@ body{
 	background: hsl(233, 47%, 7%);
 	color: ;
 }
+/**section{
+	/*background: hsl(244, 38%, 16%);*/
+	/*display: flex;
+	flex-direction: row-reverse;
+	width: ;
+	overflow: hidden;
+	padding: 50px;
+}**/
 
-.card{
+.preview{
+	margin: 50px;
+	/*padding: 50px;*/
 	background: hsl(244, 38%, 16%);
-	display: grid;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.img{
+	/*padding-left: 10px;
+	margin-left: 120px;*/
+	
+}
+
+.heading{
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: -20px;
 }
 
 h1{
 	color: hsl(0, 0%, 100%);
+	padding: 10px;
+	margin-bottom: 80px;
 }
+
+
+p{
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+/**.main{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.container{
+	background: hsl(244, 38%, 16%);
+}
+
+.grid3{
+	color: hsla(0, 0%, 100%, 0.75);
+	width: ;
+	text-align: left;
+	font-size: 15px;
+}
+
+.grid4{
+	color: hsla(0, 0%, 100%, 0.75);
+}**/
