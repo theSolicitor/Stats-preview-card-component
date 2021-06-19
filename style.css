@@ -8,14 +8,6 @@ body{
 	background: hsl(233, 47%, 7%);
 	color: ;
 }
-/**section{
-	/*background: hsl(244, 38%, 16%);*/
-	/*display: flex;
-	flex-direction: row-reverse;
-	width: ;
-	overflow: hidden;
-	padding: 50px;
-}**/
 
 .preview{
 	margin: 50px;
@@ -23,12 +15,12 @@ body{
 	background: hsl(244, 38%, 16%);
 	border-radius: 15px;
 	overflow: hidden;
-}
+	}
 
-.img{
-	/*padding-left: 10px;
-	margin-left: 120px;*/
+.image{
 	
+	filter: invert(8%) sepia(13%) saturate(3207%) hue-rotate(220deg) brightness(95%) contrast(80%);
+
 }
 
 .heading{
@@ -40,32 +32,60 @@ body{
 h1{
 	color: hsl(0, 0%, 100%);
 	padding: 10px;
-	margin-bottom: 80px;
+	margin-bottom: 20px;
 }
 
+h1 span{
+	color: hsl(277, 64%, 61%);
+}
+
+.text-body{
+	margin-left: 60px;
+}
 
 p{
 	color: hsla(0, 0%, 100%, 0.75);
 }
 
-/**.main{
-	display: flex;
-	flex-direction: column;
+.ranking{
+	display: inline-flex;
+	margin-left: 60px;
+	margin-top: 40px;
+}
+
+.rank{
+	margin-right: 20px;
+}
+
+h3{
+	color: hsl(0, 0%, 100%);
+}
+
+.attribution{
+	color: white;
 }
 
 
-
-.container{
-	background: hsl(244, 38%, 16%);
+@media screen and (max-width: 600px) {
+  img{
+  	padding-bottom: ;
+    margin-bottom: 40px;
+  }
+  .ranking{
+  	margin: 30px;
+  	width: 50px;
+  }
+  .rank{
+  	font-size: 10px;
+  	padding-left: 5px;
+  	padding-right: 3px;
+  	margin-right: 0;
+  	margin: 0 auto;
+  }
 }
 
-.grid3{
-	color: hsla(0, 0%, 100%, 0.75);
-	width: ;
-	text-align: left;
-	font-size: 15px;
+@media screen and (max-width: 768px) {
+  h1{
+  	padding: 40px;
+  }
 }
-
-.grid4{
-	color: hsla(0, 0%, 100%, 0.75);
-}**/
